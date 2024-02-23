@@ -43,7 +43,24 @@
     color: #000000; /* Example: Set text color to white for better visibility */
     text-align: center; /* Example: Center align text */
     padding: 50px; /* Example: Add padding for better spacing */
-    height: 500px;
+}
+.search-button{
+    background-color: rgb(51, 95, 206);
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: 0.5s;
+} 
+.search-button:hover{
+    opacity: 0.8;
+}
+.search-button:active{
+    background-color: rgb(255, 13, 0);
 }
 
 /* 
@@ -70,7 +87,7 @@
 }
 .footer{
     background-color: #24262b;
-    padding: 10px 0;
+    padding: 70px 0;
     width:100%;
     position:fixed;
     bottom:0;
