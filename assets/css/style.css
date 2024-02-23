@@ -43,6 +43,7 @@
     color: #000000; /* Example: Set text color to white for better visibility */
     text-align: center; /* Example: Center align text */
     padding: 50px; /* Example: Add padding for better spacing */
+    height: 500px;
 }
 
 /* 
@@ -69,7 +70,7 @@
 }
 .footer{
     background-color: #24262b;
-    padding: 70px 0;
+    padding: 10px 0;
     width:100%;
     position:fixed;
     bottom:0;
