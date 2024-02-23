@@ -4,8 +4,6 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Local Bus</title>
-	<link href= "assets\css\navbar.css" rel="stylesheet">
-	<link href= "assets\css\footer.css" rel="stylesheet">
 	<link href= "assets\css\style.css" rel="stylesheet">
 </head>
 <body>
@@ -18,7 +16,7 @@
 				<li><a href="services.html">Services</a></li>
 				<li><a href="about.html">About</a></li>
 				<li><a href="#">Contact</a></li>
-				<button><a href="#">Sign In</a></button>
+				<button><a href="signin.html">Sign In</a></button>
 				<button><a href="#">Sign Up</a></button>
 			</ul>
 		</div>
@@ -26,6 +24,24 @@
 </div>
 <div class="homepage">
     <h2>Welcome to Local Bus!</h2>
+    <div class="search-input">
+        <form id="search" action="#">
+          From <input type="text" placeholder="Starting point" id='from' name="searchKeyword" onkeypress="handle"/>
+          <br> Destinition <input type="text" placeholder="Your destination" id='searchText' name="searchKeyword" onkeypress="handle"/>
+          <i class="fa fa-search"></i>
+          <div>
+            <input name="country" list="countries" placeholder="Country">
+            <datalist id="countries">
+                <option value="Bangladesh">
+                <option value="China">
+                <option value="India">
+                <option value="Pakistan">
+                <option value="Russia">
+                <option value="United States">
+            </datelist>
+        </div> <br>
+        </form>
+      </div>
 </div>
 <div class="footer-body">
     <footer class="footer">
