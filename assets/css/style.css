@@ -56,7 +56,9 @@ html{
     color: #ffffff;
     text-align: center;
     padding: 50px;
-
+}
+.welcome{
+    margin-bottom: 50px;
 }
 .form{
     font-size: 20px;
@@ -142,8 +144,8 @@ body {
 /* unvisited link */
 .footer a:link {
     color: rgb(255, 255, 255);
-    margin-left: 5px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
   
   /* visited link */
@@ -161,18 +163,10 @@ body {
 .footer a:active {
     color: rgb(0, 255, 179);
 }
-#soc a{
-    color: rgb(246, 246, 246);
-    font-size: 20px;
-    margin: 2px;
-}
-#soc a:hover{
-    color: rgb(123, 218, 237);
-}
 .footer{
     background-image: linear-gradient(to bottom right, rgb(38, 35, 4) , rgb(51, 126, 180));
     width:100%;
-    height: 32%;
+    height: 35%;
     text-align: center;
     color: #fff;
     padding: 10px 10px;
@@ -180,7 +174,7 @@ body {
     bottom:0;
 }
 .footer-col{
-    width: 20%;
+    width: 25%;
     padding: 0 5px;
     align-items: center;
 }
@@ -189,9 +183,18 @@ body {
     color: #ffffff;
     text-transform: capitalize;
     margin-bottom: 10px;
+    align-items: center;
+}
+#soc a{
+    color: rgb(246, 246, 246);
+    font-size: 20px;
+    margin: 2px;
+}
+#soc a:hover{
+    color: rgb(123, 218, 237);
 }
 .copyright{
-    margin: 20px;
-    padding: 5px;
+    margin-bottom: auto;
+    padding: auto;
 }
 
