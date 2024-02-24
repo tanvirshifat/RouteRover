@@ -1,9 +1,12 @@
+html{
+    background-color: rgb(53, 48, 48);
+}
 /* 
 ---------------------------------------------
-                Navbar Style
+                Header Style
 --------------------------------------------- 
 */
-.nav-body{
+.header{
     text-decoration: none;
 }
 .navbar{
@@ -20,7 +23,7 @@
     list-style: none; display: inline-block;
 }
 .navbar li a{
-    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+    color: white; font-size: 22px; font-weight: bold; margin-right: 25px;
 }
 .navbar button{
     background-color: rgb(56, 103, 189); margin-left: 10px; 
@@ -32,10 +35,10 @@
 
 /* 
 ---------------------------------------------
-                Homepage body Style
+                Body Style
 --------------------------------------------- 
 */
-.homepage {
+.hbody {
     background-image: url('assets\img\tourbd.jpg');
     background-size: cover;
     background-position: center;
@@ -43,6 +46,10 @@
     color: #000000; /* Example: Set text color to white for better visibility */
     text-align: center; /* Example: Center align text */
     padding: 50px; /* Example: Add padding for better spacing */
+}
+.form{
+    color: yellow;
+    font-weight: bold;
 }
 .search-button{
     background-color: rgb(51, 95, 206);
@@ -87,19 +94,20 @@
 }
 .footer{
     background-color: #24262b;
-    padding: 70px 0;
+    padding: 0px 0;
     width:100%;
+    height: 35%;
     position:fixed;
     bottom:0;
 }
 .footer-col{
-    width: 25%;
-    padding: 0 15px;
+    width: 20%;
+    padding: 0 0px;
 }
 .footer-col h4{
     font-size: 18px;
     color: #ffffff;
     text-transform: capitalize;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
