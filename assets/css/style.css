@@ -130,6 +130,7 @@ body {
 .footer-row{
     display: flex;
     flex-wrap: wrap;
+
 }
 .footer ul{
     list-style: none;
@@ -141,14 +142,8 @@ body {
 /* unvisited link */
 .footer a:link {
     color: rgb(255, 255, 255);
-}
-#soc a{
-    color: rgb(246, 246, 246);
-    font-size: 20px;
-    margin: 2px;
-}
-#soc a:hover{
-    color: rgb(123, 218, 237);
+    margin-left: 5px;
+    margin-right: 20px;
 }
   
   /* visited link */
@@ -166,7 +161,14 @@ body {
 .footer a:active {
     color: rgb(0, 255, 179);
 }
-
+#soc a{
+    color: rgb(246, 246, 246);
+    font-size: 20px;
+    margin: 2px;
+}
+#soc a:hover{
+    color: rgb(123, 218, 237);
+}
 .footer{
     background-image: linear-gradient(to bottom right, rgb(38, 35, 4) , rgb(51, 126, 180));
     width:100%;
