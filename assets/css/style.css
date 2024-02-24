@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(53, 48, 48);
+    background-image: linear-gradient(to bottom right, rgb(38, 35, 4) , rgb(9, 79, 129));
 }
 /* 
 ---------------------------------------------
@@ -10,7 +10,7 @@ html{
     text-decoration: none;
 }
 .navbar{
-    background: crimson; font-family: calibri; 
+    background-image: linear-gradient(to bottom right, rgb(38, 35, 4) , rgb(51, 126, 180));
     padding-right: 15px;padding-left: 15px;
 }
 .navdiv{
@@ -38,36 +38,49 @@ html{
                 Body Style
 --------------------------------------------- 
 */
+#contact p{
+    color: rgb(245, 245, 245);
+    text-align: left;
+    justify-content:first baseline
+}
 .hbody {
-    background-image: url('assets\img\tourbd.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    color: #000000; /* Example: Set text color to white for better visibility */
-    text-align: center; /* Example: Center align text */
-    padding: 50px; /* Example: Add padding for better spacing */
+    height: 200vh;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+
 }
 .form{
     color: yellow;
     font-weight: bold;
 }
-.search-button{
-    background-color: rgb(51, 95, 206);
-    color: white;
+button{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom right, rgb(8, 108, 145) , 
+    rgb(153, 169, 180)); margin-left: 10px; 
+    font-size: 15px;
     font-weight: bold;
-    height: 30px;
-    width: 70px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-right: 8px;
-    transition: 0.5s;
-} 
-.search-button:hover{
+    border-radius: 10px; padding: 5px; width: 70px;
+}
+button:hover{
     opacity: 0.8;
 }
-.search-button:active{
-    background-color: rgb(255, 13, 0);
+body {
+    padding-top: 50px;
+    background-image: linear-gradient(to bottom right, rgb(38, 35, 4) , rgb(51, 126, 180));
+}
+#contact h3{
+    vertical-align: center;
+    background-image: linear-gradient(to bottom right, rgb(8, 108, 145) , 
+    rgb(153, 169, 180));
+}
+#contact{
+    display: inline-block;
+    margin-top: 100px;
+    justify-content: center;
+    width: 150px;
 }
 
 /* 
@@ -75,11 +88,11 @@ html{
                 Footer Style
 --------------------------------------------- 
 */
-
 .footer-body{
     margin: 0;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
+    color: white;
 }
 .container{
     max-width: 1170px;
@@ -91,23 +104,46 @@ html{
 }
 .footer ul{
     list-style: none;
+    display: table;
+    margin: 0 auto;
 }
+/* unvisited link */
+.footer a:link {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* visited link */
+.footer a:visited {
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+  }
+  
+  /* mouse over link */
+.footer a:hover {
+    color: rgb(105, 175, 255);
+  }
+  
+  /* selected link */
+.footer a:active {
+    color: rgb(179, 255, 0);
+  }
 .footer{
-    background-color: #24262b;
+    background-image: linear-gradient(to bottom right, rgb(38, 35, 4) , rgb(51, 126, 180));
     padding: 0px 0;
     width:100%;
     height: 35%;
-    position:fixed;
+    position: fixed;
     bottom:0;
 }
 .footer-col{
     width: 20%;
-    padding: 0 0px;
+    padding: 0 5px;
+    align-items: center;
 }
 .footer-col h4{
     font-size: 18px;
     color: #ffffff;
     text-transform: capitalize;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
