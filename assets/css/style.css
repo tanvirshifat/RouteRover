@@ -56,7 +56,6 @@ html{
     font-size: 20px;
     color: yellow;
     font-weight: bold;
-    
 }
 
 input{
@@ -88,23 +87,23 @@ body {
 
 /* Contact Form */
 #contact h3{
+    color: rgb(255, 255, 255);
     vertical-align: center;
-    background-image: linear-gradient(to bottom right, rgb(8, 108, 145) , 
-    rgb(153, 169, 180));
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0) , 
+    rgb(66, 135, 181));
 }
 #contact{
     grid-template-rows: auto;    
-    margin-top: 100px;
+    margin-top: 200px;
     justify-content: center;
-    width: 150px;
     display: grid;
-
-
-  box-sizing: border-box;
-  width: 400px;
-  height: 200px;
-  margin-left: auto;
-  margin-right: auto;
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    background-color: rgb(34, 77, 99);
 }
 
 /* 
