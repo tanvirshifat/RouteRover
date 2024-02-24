@@ -134,7 +134,9 @@ body {
 .footer ul{
     list-style: none;
     display: table;
-    margin: 0 auto;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 /* unvisited link */
 .footer a:link {
