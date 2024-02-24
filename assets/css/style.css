@@ -94,7 +94,7 @@ body {
 }
 #contact{
     width: 500px;
-    height: 250px;
+    height: 300px;
     display: grid;
     grid-template-rows: auto;    
     justify-content: center;
