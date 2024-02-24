@@ -139,23 +139,32 @@ body {
 /* unvisited link */
 .footer a:link {
     color: rgb(255, 255, 255);
-  }
+}
+#soc a{
+    color: rgb(246, 246, 246);
+    font-size: 20px;
+    margin: 2px;
+}
+#soc a:hover{
+    color: rgb(123, 218, 237);
+}
   
   /* visited link */
 .footer a:visited {
     color: rgb(255, 255, 255);
     opacity: 0.6;
-  }
+}
   
   /* mouse over link */
 .footer a:hover {
-    color: rgb(105, 175, 255);
-  }
+    color: rgb(123, 218, 237);
+}
   
   /* selected link */
 .footer a:active {
-    color: rgb(179, 255, 0);
-  }
+    color: rgb(0, 255, 179);
+}
+
 .footer{
     background-image: linear-gradient(to bottom right, rgb(38, 35, 4) , rgb(51, 126, 180));
     width:100%;
