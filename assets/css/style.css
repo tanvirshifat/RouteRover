@@ -53,8 +53,17 @@ html{
 
 }
 .form{
+    font-size: 20px;
     color: yellow;
     font-weight: bold;
+    
+}
+
+input{
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 17px;
+    display: inline-block;
 }
 button{
     color: rgb(255, 255, 255);
@@ -66,21 +75,36 @@ button{
 }
 button:hover{
     opacity: 0.8;
+    color: black;
+}
+button:active{
+    opacity: 0.6;
+    color: rgb(168, 233, 225);
 }
 body {
     padding-top: 50px;
     background-image: linear-gradient(to bottom right, rgb(38, 35, 4) , rgb(51, 126, 180));
 }
+
+/* Contact Form */
 #contact h3{
     vertical-align: center;
     background-image: linear-gradient(to bottom right, rgb(8, 108, 145) , 
     rgb(153, 169, 180));
 }
 #contact{
-    display: inline-block;
+    grid-template-rows: auto;    
     margin-top: 100px;
     justify-content: center;
     width: 150px;
+    display: grid;
+
+
+  box-sizing: border-box;
+  width: 400px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* 
@@ -130,7 +154,7 @@ body {
 .footer{
     background-image: linear-gradient(to bottom right, rgb(38, 35, 4) , rgb(51, 126, 180));
     width:100%;
-    height: 42%;
+    height: 32%;
     text-align: center;
     color: #fff;
     padding: 10px 10px;
@@ -149,7 +173,7 @@ body {
     margin-bottom: 10px;
 }
 .copyright{
-    margin: 30px;
-    padding: 0px;
+    margin: 20px;
+    padding: 5px;
 }
 
