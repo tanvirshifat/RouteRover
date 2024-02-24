@@ -42,7 +42,7 @@ html{
     background-image: url('assets\img\tourbd.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Adjust as needed */
+    height: 100vh;
     color: #000000; /* Example: Set text color to white for better visibility */
     text-align: center; /* Example: Center align text */
     padding: 50px; /* Example: Add padding for better spacing */
